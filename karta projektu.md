@@ -85,7 +85,52 @@ Typ | Opis
 ---------------------------|-----------------------------------------------------------------------------------
 
 
-6. Zespół projektowy i role
+6. Projekt systemu (UML)
+
+W celu zaprojektowania architektury systemu CampusX oraz zobrazowania jego działania wykorzystano notację UML (Unified Modeling Language). Diagramy UML umożliwiają przedstawienie procesów biznesowych, struktury danych oraz komunikacji pomiędzy komponentami systemu.
+
+6.1 Diagram przypadków użycia
+
+Diagram przypadków użycia przedstawia podstawowe funkcjonalności systemu CampusX oraz role użytkowników korzystających z aplikacji. Użytkownikami systemu są studenci, organizatorzy wydarzeń oraz administratorzy. Diagram ten umożliwia identyfikację głównych interakcji użytkowników z systemem oraz stanowi punkt wyjścia do dalszego projektowania systemu.
+
+6.2 Diagram aktywności  
+*(Proces tworzenia wydarzenia przez organizatora)*
+
+Diagram aktywności przedstawia proces tworzenia wydarzenia przez organizatora w systemie CampusX. Proces rozpoczyna się w momencie otwarcia panelu organizatora i wybrania opcji „Utwórz wydarzenie”.
+
+Następnie użytkownik wprowadza dane wydarzenia, takie jak nazwa, opis, data oraz lokalizacja. Równolegle system przeprowadza walidację pól formularza. W przypadku poprawnych danych następuje zapis wydarzenia w bazie danych oraz wyświetlenie komunikatu o pomyślnym zakończeniu operacji.
+
+Jeżeli dane są niepoprawne, system informuje użytkownika o błędach formularza, umożliwiając ich poprawę. Proces kończy się po poprawnym zapisaniu wydarzenia lub po wyświetleniu komunikatu o błędach.
+
+Diagram ilustruje zarówno przebieg główny procesu, jak i obsługę sytuacji wyjątkowych, co pozwala na pełne zrozumienie logiki procesu biznesowego.
+
+6.3 Diagram klas  
+*(Struktura danych systemu)*
+
+Diagram klas przedstawia strukturę logiczną systemu CampusX oraz relacje pomiędzy głównymi obiektami domenowymi aplikacji.
+
+Centralną klasą jest `User`, reprezentująca użytkownika systemu. Każdy użytkownik posiada przypisaną rolę (`UserRole`), która określa jego uprawnienia, takie jak STUDENT, ORGANIZATOR lub ADMIN.
+
+Klasa `Event` opisuje wydarzenie tworzone przez organizatora i zawiera informacje takie jak tytuł, opis, data, lokalizacja oraz maksymalna liczba uczestników. Relacja pomiędzy klasami `User` i `Event` wskazuje, że jeden użytkownik może utworzyć wiele wydarzeń.
+
+Klasa `Reservation` reprezentuje zapis użytkownika na wydarzenie. Umożliwia ona powiązanie konkretnego studenta z wybranym wydarzeniem oraz przechowuje informacje o czasie dokonania rezerwacji.
+
+Diagram klas stanowi podstawę do implementacji relacyjnej bazy danych oraz warstwy backendowej aplikacji.
+
+6.4 Diagram sekwencji  
+*(Proces zapisu studenta na wydarzenie)*
+
+Diagram sekwencji przedstawia proces zapisu studenta na wydarzenie w systemie CampusX oraz komunikację pomiędzy poszczególnymi warstwami aplikacji.
+
+Proces rozpoczyna się w momencie, gdy student wybiera opcję „Zapisz się” w interfejsie użytkownika. Żądanie zapisu przesyłane jest z warstwy frontendowej do backendowego API w postaci zapytania HTTP.
+
+Backend przetwarza żądanie, zapisuje dane rezerwacji w bazie danych oraz inicjuje wysłanie wiadomości e-mail z potwierdzeniem zapisu. Po pomyślnym wykonaniu operacji system zwraca odpowiedź do frontendu, który wyświetla użytkownikowi komunikat o sukcesie.
+
+Diagram sekwencji obrazuje współpracę pomiędzy frontendem, backendem, bazą danych oraz systemem zewnętrznym.
+
+
+
+7. Zespół projektowy i role
 
 Rola|Osoba|Odpowiedzialność
 --------------|-------------------------|-----------------------------------------------------------------------
@@ -93,7 +138,7 @@ Alan Myśliwiec|Kierownik projektu|Frontendowiec|Planowanie, koordynacja, raport
 Kacper Dęga|Programista|Implementacja backendu (Spring Boot), integracja z bazą danych, testy jednostkowe/integracyjne, tworzenie REST API
 Paweł Dąbrowski|Tester manualny||Analityk systemowy|Dokumentalista|Analiza wymagań, tworzenie przypadków użycia, diagramów UML , testy manualne i tworzenia danych, Redakcja dokumentacji projektowej, tworzenie przypadków użycia, diagramów UML
 
-7. Zasoby i narzędzia
+8. Zasoby i narzędzia
 
 Kategoria|Narzędzie / Technologia|Cel zastosowania
 -----------------|-----------------------------------|----------------------------------------------------------
@@ -105,7 +150,7 @@ Baza danych|PostgreSQL|Przechowywanie danych o wydarzeniach i urzytkonikach
 Dokumentacja|Word|Tworzenie dokumentacji technicznej
 Komunikacja|Telegram, Discord|Spotkania zespołowe
 
-8. Harmonogram realizacji (10 spotkań)
+9. Harmonogram realizacji (10 spotkań)
 
 Etap|Zakres|Czas realizacji|Rezultat
 ---|----------------------------------------------------|----------------|--------------------------------------
@@ -118,7 +163,7 @@ Etap|Zakres|Czas realizacji|Rezultat
 7|Testowanie i poprawki|Tydzień 8|Raport testów
 8|Dokumentacja końcowa i prezentacja|Tydzień 9–10|Prezentacja, protokół odbioru
 
-9. Analiza ryzyka
+10. Analiza ryzyka
 
 Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 --|---------------------------|-----------|-----------------------------------|---------------------------------
@@ -129,7 +174,7 @@ Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 5|Niedostateczna dokumentacja|Niskie|Wysoki|Wczesne rozpoczęcie opracowania przez dokumentalistę
 6|Brak czasu|Średnie|Średnie|Wydłużenie deadline, ewentualne wsparcie zespołu w realizacji zadań
 
-10. Kryteria sukcesu projektu
+11. Kryteria sukcesu projektu
 
 - Wszystkie wymagania funkcjonalne zostały zaimplementowane.
 - Aplikacja uruchamia się lokalnie i działa poprawnie.
@@ -138,7 +183,7 @@ Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 - Zespół zrealizował projekt w wyznaczonym czasie.
 - Projekt został pozytywnie oceniony przez prowadzącego.
 
-11. Rezultaty projektu
+12. Rezultaty projektu
 
 - Prototyp aplikacji webowej (CampusX).
 - Dokumentacja projektowa (wymagania, UML, testy).
@@ -146,7 +191,7 @@ Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 - Prezentacja zespołowa (PDF, prezentacja na żywo).
 - Raport końcowy i protokół zdawczo-odbiorczy.
 
-12. Akceptacja projektu
+13. Akceptacja projektu
 
 Funkcja|Imię i nazwisko|Data|Podpis
 ------------|-------------------------------|--------------|----------------------------------|
@@ -158,6 +203,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
