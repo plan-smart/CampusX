@@ -1,0 +1,16 @@
+@startuml
+actor Student
+participant "Frontend" as FE
+participant "Backend API" as BE
+participant "Database" as DB
+participant "Email System" as ES
+
+Student -> FE : Klik "Zapisz się"
+FE -> BE : POST /reservations
+BE -> DB : INSERT reservation
+DB --> BE : OK
+BE -> ES : Send confirmation e-mail
+ES --> BE : OK
+BE --> FE : {status: "success"}
+FE --> Student : Wyświetl potwierdzenie
+@enduml
