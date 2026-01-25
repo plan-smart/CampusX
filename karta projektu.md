@@ -103,7 +103,7 @@ W celu zaprojektowania architektury systemu CampusX oraz zobrazowania jego dzia�
 6.1 Diagram przypadków użycia
 
 
-<p align="center"> <img width="650" height="800" alt="diagram przypadków użycia" src="https://github.com/user-attachments/assets/DIAGRAM_PRZYPADKOW_UZYCIA_ID" /> <p align="center"> *(Diagram przypadków użycia systemu CampusX)* </p> </p>
+<p align="center"> <img width="650" height="800" alt="diagram przypadków użycia" src="https://github.com/user-attachments/assets/bff5af1c-60ea-4c1e-9e5f-9db7a5687410" /> <p align="center"> *(Diagram przypadków użycia systemu CampusX)* </p> </p>
 
 Diagram przypadków użycia przedstawia zakres funkcjonalny systemu CampusX oraz sposób interakcji użytkowników z aplikacją. Diagram umożliwia identyfikację głównych funkcji systemu oraz określenie ról użytkowników korzystających z poszczególnych funkcjonalności.
 
@@ -251,6 +251,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
