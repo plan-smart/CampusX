@@ -113,7 +113,9 @@ Diagram ilustruje zarówno przebieg główny procesu, jak i obsługę sytuacji w
 
 <p align="center">
 <img width="384" height="506" alt="diagram klas" src="https://github.com/user-attachments/assets/afb802e6-46f7-4d47-ba17-4f09ca357fb2" />
-*(Struktura danych systemu)*
+<p align="center">
+  *(Struktura danych systemu)*
+</p>
 </p>
 
 
@@ -131,7 +133,9 @@ Diagram klas stanowi podstawę do implementacji relacyjnej bazy danych oraz wars
 
 <p align="center">
 <img width="679" height="414" alt="diagram sekwencji" src="https://github.com/user-attachments/assets/25f8cb94-9fe4-41d1-b993-b10fe9c3804c" />
+  <p align="center">
 *(Proces zapisu studenta na wydarzenie)*
+  </p>
 </p>
 
 
@@ -219,6 +223,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
