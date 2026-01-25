@@ -27,7 +27,7 @@ Tytuł projektu:
 CampusX (Aplikacja do zarządzania wydarzeniami studenckimi)
 
 Data utworzenia: 19.10.2025
-Wersja dokumentu: 1.0
+Wersja dokumentu: 12.8
 Zespół projektowy:
 
 Imię i nazwisko | Rola w projekcie | Zakres odpowiedzialności
@@ -226,6 +226,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
