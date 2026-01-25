@@ -167,7 +167,7 @@ Kategoria|Narzędzie / Technologia|Cel zastosowania
 -----------------|-----------------------------------|----------------------------------------------------------
 Zarządzanie projektem|GitHub Projekt|Planowanie sprintów, śledzenie zadań
 Repozytorium|GitHub|Kontrola wersji kodu
-Analiza i projektowanie, Miro|Diagramy UML, mapa procesu
+Analiza i projektowanie| Miro|Diagramy UML, mapa procesu
 Programowanie|Java (Spring Boot), HTML/CSS|Implementacja aplikacji
 Baza danych|PostgreSQL|Przechowywanie danych o wydarzeniach i urzytkonikach
 Dokumentacja|Word|Tworzenie dokumentacji technicznej
@@ -208,10 +208,9 @@ Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 
 # 12. Rezultaty projektu
 
-- Prototyp aplikacji webowej (CampusX).
 - Dokumentacja projektowa (wymagania, UML, testy).
 - Dokumentacja techniczna (instrukcja uruchomienia).
-- Prezentacja zespołowa (PDF, prezentacja na żywo).
+- Prezentacja zespołowa ( prezentacja na żywo).
 - Raport końcowy i protokół zdawczo-odbiorczy.
 
 # 13. Akceptacja projektu
@@ -226,6 +225,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
