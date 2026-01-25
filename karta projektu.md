@@ -78,10 +78,22 @@ Poza zakresem projektu:
 - Mobilna wersja.
 - Integracja z narzedziami AI.
 
-5. Wymagania 
+5. Wymagania
 
-Typ | Opis
----------------------------|-----------------------------------------------------------------------------------
+| ID  | Opis wymagania                                                | Priorytet | Źródło              |
+| --- | ------------------------------------------------------------- | --------- | ------------------- |
+| F1  | Użytkownik może się zarejestrować i zalogować do systemu      | Must      | Student             |
+| F2  | Użytkownik może przeglądać listę wszystkich wydarzeń          | Must      | Student             |
+| F3  | Użytkownik może filtrować wydarzenia (data, tagi, miejsce)    | Should    | Student             |
+| F4  | Użytkownik może wyświetlić szczegóły wydarzenia               | Must      | Student             |
+| F5  | Użytkownik może zapisać się na wydarzenie                     | Must      | Student             |
+| F6  | Organizator może utworzyć nowe wydarzenie                     | Must      | Organizator         |
+| F7  | Organizator może edytować i usuwać własne wydarzenia          | Should    | Organizator         |
+| F8  | System wysyła powiadomienie potwierdzające rezerwację         | Should    | Student             |
+| F9  | Administrator może zarządzać użytkownikami i rolami           | Could     | Admin               |
+| F10 | System wyświetla kalendarz wydarzeń                           | Must      | Student/Organizator |
+| F11 | System generuje raporty o frekwencji                          | Could     | Dyrekcja            |
+| F12 | Użytkownik może zobaczyć listę wydarzeń, na które się zapisał | Must      | Student             |
 
 
 6. Projekt systemu (UML)
@@ -222,6 +234,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
