@@ -44,7 +44,7 @@ Celem projektu CampusX jest opracowanie i wdrożenie webowej aplikacji do zarzą
 
 - studentom i wykładowcom szybkie tworzenie i promowanie wydarzeń,
 - rezerwowanie terminów wydarzeń studenckich,
-- rejeestrowanie uczestników wydarzeń
+- rejestrowanie uczestników wydarzeń
 - przeglądanie kalendarza dostępności wydarzeń,
 - Projekt ma służyć jako prototyp systemu społecznościowego dla studentów oraz uczelni, z potencjałem dalszego rozwoju.
 
@@ -225,6 +225,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
