@@ -104,19 +104,11 @@ W celu zaprojektowania architektury systemu CampusX oraz zobrazowania jego dzia�
 
 <p align="center"> <img width="650" height="800" alt="diagram przypadków użycia" src="https://github.com/user-attachments/assets/bff5af1c-60ea-4c1e-9e5f-9db7a5687410" /> <p align="center"> *(Diagram przypadków użycia systemu CampusX)* </p> </p>
 
-Diagram przypadków użycia przedstawia zakres funkcjonalny systemu CampusX oraz sposób interakcji użytkowników z aplikacją. Diagram umożliwia identyfikację głównych funkcji systemu oraz określenie ról użytkowników korzystających z poszczególnych funkcjonalności.
+Diagram przypadków użycia przedstawia funkcjonalności systemu CampusX oraz role użytkowników korzystających z aplikacji. Wyróżniono trzech aktorów: Studenta, Organizatora oraz Administratora.
 
-W systemie wyróżniono trzech aktorów: Studenta, Organizatora wydarzeń oraz Administratora. Każdy z aktorów posiada inny zakres uprawnień i dostęp do określonych funkcji systemu.
+Student może przeglądać i wyszukiwać wydarzenia, zapisywać się na nie oraz anulować rezerwacje. Organizator posiada możliwość tworzenia wydarzeń oraz zarządzania uczestnikami. Administrator odpowiada za zarządzanie kontami użytkowników oraz moderację treści w systemie.
 
-Student jest głównym użytkownikiem systemu. Może on przeglądać i wyszukiwać dostępne wydarzenia, zapisywać się na wybrane wydarzenia oraz anulować dokonane wcześniej rezerwacje. Student ma również możliwość rejestracji i logowania do systemu, co umożliwia korzystanie z pełnej funkcjonalności aplikacji.
-
-Organizator wydarzeń korzysta z panelu organizatora, który umożliwia tworzenie nowych wydarzeń oraz zarządzanie uczestnikami zapisanymi na dane wydarzenie. Funkcje te pozwalają na efektywną organizację wydarzeń studenckich.
-
-Administrator odpowiada za zarządzanie systemem oraz jego zawartością. Do jego zadań należy zarządzanie kontami użytkowników oraz moderacja treści, co zapewnia bezpieczeństwo i poprawne działanie aplikacji.
-
-Diagram przypadków użycia stanowi podstawę do dalszego projektowania systemu, w szczególności diagramów aktywności, diagramów sekwencji oraz implementacji funkcjonalności aplikacji CampusX.
-
-
+Diagram ten pozwala określić zakres odpowiedzialności poszczególnych użytkowników i stanowi podstawę dalszego projektowania systemu.
 
 Diagram przypadków użycia przedstawia podstawowe funkcjonalności systemu CampusX oraz role użytkowników korzystających z aplikacji. Użytkownikami systemu są studenci, organizatorzy wydarzeń oraz administratorzy. Diagram ten umożliwia identyfikację głównych interakcji użytkowników z systemem oraz stanowi punkt wyjścia do dalszego projektowania systemu.
 
@@ -128,14 +120,9 @@ Diagram przypadków użycia przedstawia podstawowe funkcjonalności systemu Camp
   </p>
 </p>
 
+Diagram aktywności przedstawia proces tworzenia wydarzenia przez organizatora. Proces obejmuje wprowadzenie danych wydarzenia, ich walidację oraz zapis w bazie danych.
 
-Diagram aktywności przedstawia proces tworzenia wydarzenia przez organizatora w systemie CampusX. Proces rozpoczyna się w momencie otwarcia panelu organizatora i wybrania opcji „Utwórz wydarzenie”.
-
-Następnie użytkownik wprowadza dane wydarzenia, takie jak nazwa, opis, data oraz lokalizacja. Równolegle system przeprowadza walidację pól formularza. W przypadku poprawnych danych następuje zapis wydarzenia w bazie danych oraz wyświetlenie komunikatu o pomyślnym zakończeniu operacji.
-
-Jeżeli dane są niepoprawne, system informuje użytkownika o błędach formularza, umożliwiając ich poprawę. Proces kończy się po poprawnym zapisaniu wydarzenia lub po wyświetleniu komunikatu o błędach.
-
-Diagram ilustruje zarówno przebieg główny procesu, jak i obsługę sytuacji wyjątkowych, co pozwala na pełne zrozumienie logiki procesu biznesowego.
+W przypadku poprawnych danych system zapisuje wydarzenie i wyświetla komunikat o sukcesie. Jeśli dane są błędne, użytkownik otrzymuje informację o błędach i możliwość ich poprawy.
 
 6.3 Diagram klas  
 
@@ -147,15 +134,9 @@ Diagram ilustruje zarówno przebieg główny procesu, jak i obsługę sytuacji w
 </p>
 
 
-Diagram klas przedstawia strukturę logiczną systemu CampusX oraz relacje pomiędzy głównymi obiektami domenowymi aplikacji.
+Diagram klas przedstawia strukturę danych systemu CampusX. Głównymi klasami są User, Event oraz Reservation.
 
-Centralną klasą jest `User`, reprezentująca użytkownika systemu. Każdy użytkownik posiada przypisaną rolę (`UserRole`), która określa jego uprawnienia, takie jak STUDENT, ORGANIZATOR lub ADMIN.
-
-Klasa `Event` opisuje wydarzenie tworzone przez organizatora i zawiera informacje takie jak tytuł, opis, data, lokalizacja oraz maksymalna liczba uczestników. Relacja pomiędzy klasami `User` i `Event` wskazuje, że jeden użytkownik może utworzyć wiele wydarzeń.
-
-Klasa `Reservation` reprezentuje zapis użytkownika na wydarzenie. Umożliwia ona powiązanie konkretnego studenta z wybranym wydarzeniem oraz przechowuje informacje o czasie dokonania rezerwacji.
-
-Diagram klas stanowi podstawę do implementacji relacyjnej bazy danych oraz warstwy backendowej aplikacji.
+Klasa User reprezentuje użytkownika systemu i zawiera informację o jego roli. Klasa Event opisuje wydarzenie, natomiast klasa Reservation odpowiada za zapisy użytkowników na wydarzenia. Diagram ten stanowi podstawę do zaprojektowania bazy danych systemu.
 
 6.4 Diagram sekwencji  
 
@@ -166,14 +147,9 @@ Diagram klas stanowi podstawę do implementacji relacyjnej bazy danych oraz wars
   </p>
 </p>
 
+Diagram sekwencji przedstawia proces zapisu studenta na wydarzenie. Pokazuje on komunikację pomiędzy interfejsem użytkownika, backendem, bazą danych oraz systemem e-mail.
 
-Diagram sekwencji przedstawia proces zapisu studenta na wydarzenie w systemie CampusX oraz komunikację pomiędzy poszczególnymi warstwami aplikacji.
-
-Proces rozpoczyna się w momencie, gdy student wybiera opcję „Zapisz się” w interfejsie użytkownika. Żądanie zapisu przesyłane jest z warstwy frontendowej do backendowego API w postaci zapytania HTTP.
-
-Backend przetwarza żądanie, zapisuje dane rezerwacji w bazie danych oraz inicjuje wysłanie wiadomości e-mail z potwierdzeniem zapisu. Po pomyślnym wykonaniu operacji system zwraca odpowiedź do frontendu, który wyświetla użytkownikowi komunikat o sukcesie.
-
-Diagram sekwencji obrazuje współpracę pomiędzy frontendem, backendem, bazą danych oraz systemem zewnętrznym.
+Proces rozpoczyna się od wysłania żądania zapisu, następnie dane są zapisywane w bazie, a użytkownik otrzymuje potwierdzenie zapisu w aplikacji oraz wiadomość e-mail.
 
 
 
@@ -250,6 +226,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
