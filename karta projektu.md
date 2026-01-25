@@ -37,7 +37,6 @@ Paweł Dąbrowski | Tester manualny / Analityk systemowy / Dokumentalista | - An
 Wojciech Kuźmicz | Dokumentalista | - Współtworzenie dokumentacji projektowej<br>- Redakcja i formatowanie dokumentów<br>- Uporządkowanie opisów diagramów UML<br>- Przygotowanie wersji końcowej dokumentacji<br>- Wsparcie zespołu w zakresie dokumentacji
 
 Prowadzący: mgr Wojciech Moniuszko
-Jednostka dydaktyczna: ??
 
 # 2. Cel projektu
 
@@ -251,6 +250,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
