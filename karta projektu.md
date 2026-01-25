@@ -94,8 +94,9 @@ W celu zaprojektowania architektury systemu CampusX oraz zobrazowania jego dzia�
 Diagram przypadków użycia przedstawia podstawowe funkcjonalności systemu CampusX oraz role użytkowników korzystających z aplikacji. Użytkownikami systemu są studenci, organizatorzy wydarzeń oraz administratorzy. Diagram ten umożliwia identyfikację głównych interakcji użytkowników z systemem oraz stanowi punkt wyjścia do dalszego projektowania systemu.
 
 6.2 Diagram aktywności  
-
+<p align="center">
 <img width="438" height="467" alt="diagram aktywności" src="https://github.com/user-attachments/assets/e7153b0e-8b60-4b92-b425-0b32c866303e" />
+</p>
 
 *(Proces tworzenia wydarzenia przez organizatora)*
 
@@ -109,7 +110,9 @@ Diagram ilustruje zarówno przebieg główny procesu, jak i obsługę sytuacji w
 
 6.3 Diagram klas  
 
+<p align="center">
 <img width="384" height="506" alt="diagram klas" src="https://github.com/user-attachments/assets/afb802e6-46f7-4d47-ba17-4f09ca357fb2" />
+</p>
 
 *(Struktura danych systemu)*
 
@@ -125,7 +128,9 @@ Diagram klas stanowi podstawę do implementacji relacyjnej bazy danych oraz wars
 
 6.4 Diagram sekwencji  
 
+<p align="center">
 <img width="679" height="414" alt="diagram sekwencji" src="https://github.com/user-attachments/assets/25f8cb94-9fe4-41d1-b993-b10fe9c3804c" />
+</p>
 
 *(Proces zapisu studenta na wydarzenie)*
 
@@ -212,6 +217,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
