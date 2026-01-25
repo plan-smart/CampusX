@@ -101,14 +101,6 @@ Poza zakresem projektu:
 W celu zaprojektowania architektury systemu CampusX oraz zobrazowania jego działania wykorzystano notację UML (Unified Modeling Language). Diagramy UML umożliwiają przedstawienie procesów biznesowych, struktury danych oraz komunikacji pomiędzy komponentami systemu.
 
 6.1 Diagram przypadków użycia
-<p align="center">
-<img width="438" height="467" alt="diagram aktywności" src="https://github.com/user-attachments/assets/e7153b0e-8b60-4b92-b425-0b32c866303e" />
-<p align="center">
-*(Proces tworzenia wydarzenia przez organizatora)*
-  </p>
-</p>
-
-
 
 
 <p align="center"> <img src="https://github.com/user-attachments/assets/e7153b0e-8b60-4b92-b425-0b32c866303e" alt="Diagram przypadków użycia systemu CampusX" width="600"><br> <em> Diagram przypadków użycia systemu CampusX</em> </p>
