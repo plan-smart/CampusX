@@ -10,7 +10,7 @@ Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego po
 |2. Cel projektu|Co projekt ma osiągnąć i dlaczego|Umożliwienie tworzenia, rezerwacji i wyszukiwania przez studentów 
 |3. Uzasadnienie biznesowe / edukacyjne|Dlaczego projekt jest potrzebny|Obecnie rezerwacje odbywają się e-mailowo. System poprawi efektywność i przejrzystość procesu.|
 |4. Zakres projektu|Co wchodzi w zakres i co jest poza zakresem|W zakresie: rezerwacja, kalendarz,tworzenie wydarzeń ; poza zakresem: integracja z systemem facebook, powiadomienia |
-|5. Główne wymagania|Wstępna lista funkcjonalności|Użytkownik może wyszukać wydarzenia, dokonać potwierdzenia duczestnicwa (rezerwacji), tworzenie wydarzeń|
+|5. Główne wymagania|Wstępna lista funkcjonalności|Użytkownik może wyszukać wydarzenia, dokonać potwierdzenia uczestnicwa (rezerwacji), tworzenie wydarzeń|
 |6. Zespół projektowy i role|Lista członków i ich funkcji|Kierownik – A. Myśliwiec, Frontendowiec – A. Myśliwiec, Tester/Analityk systemowy – P. Dąbrowski, Dokumentalista – W. Kuźmicz|
 |7. Zasoby i narzędzia|Technologie, środowisko, repozytorium, narzędzia komunikacji|GitHub, Miro, Java, Spring Boot, HTMLL\CSS, PostgreSQL.|
 |8. Harmonogram wstępny|Etapy realizacji projektu|Analiza wymagań (1–2 tydz.), Projektowanie (3–4 tydz.), Implementacja (5–7 tydz.), Testy (8 tydz.), Prezentacja (10 tydz.)|
@@ -225,6 +225,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
