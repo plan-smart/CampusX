@@ -78,6 +78,7 @@ Poniższa tabela przedstawia główne funkcjonalności w formie klasycznej specy
 
 ## **4.1 Tabela wymagań funkcjonalnych**
 
+
 | ID  | Opis wymagania                                                | Priorytet | Źródło              |
 | --- | ------------------------------------------------------------- | --------- | ------------------- |
 | F1  | Użytkownik może się zarejestrować i zalogować do systemu      | Must      | Student             |
@@ -86,9 +87,9 @@ Poniższa tabela przedstawia główne funkcjonalności w formie klasycznej specy
 | F4  | Użytkownik może wyświetlić szczegóły wydarzenia               | Must      | Student             |
 | F5  | Użytkownik może zapisać się na wydarzenie                     | Must      | Student             |
 | F6  | Organizator może utworzyć nowe wydarzenie                     | Must      | Organizator         |
-| F7  | Organizator może edytować i usuwać własne wydarzenia          | Should    | Organizator         |
+| F7  | Organizator może edytować i usuwać własne wydarzenia          | Must      | Organizator         |
 | F8  | System wysyła powiadomienie potwierdzające rezerwację         | Should    | Student             |
-| F9  | Administrator może zarządzać użytkownikami i rolami           | Could     | Admin               |
+| F9  | Administrator może zarządzać użytkownikami i rolami           | Must      | Admin               |
 | F10 | System wyświetla kalendarz wydarzeń                           | Must      | Student/Organizator |
 | F11 | System generuje raporty o frekwencji                          | Could     | Dyrekcja            |
 | F12 | Użytkownik może zobaczyć listę wydarzeń, na które się zapisał | Must      | Student             |
