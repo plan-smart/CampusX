@@ -11,7 +11,7 @@ Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego po
 |3. Uzasadnienie biznesowe / edukacyjne|Dlaczego projekt jest potrzebny|„Obecnie rezerwacje odbywają się e-mailowo. System poprawi efektywność i przejrzystość procesu.”|
 |4. Zakres projektu|Co wchodzi w zakres i co jest poza zakresem|„W zakresie: rezerwacja, kalendarz,tworzenie wydarzeń ; poza zakresem: integracja z systemem facebook, powiadomienia ”|
 |5. Główne wymagania|Wstępna lista funkcjonalności|„Użytkownik może wyszukać wydarzenia, dokonać potwierdzenia duczestnicwa (rezerwacji), tworzenie wydarzeń”|
-|6. Zespół projektowy i role|Lista członków i ich funkcji|„Kierownik – A. Myśliwiec, Analityk/Test­er/Dokumentalista – P. Dąbrowski, Analityk danych – W. Kuźmicz, Frontendowiec – A. Myśliwiec”|
+|6. Zespół projektowy i role|Lista członków i ich funkcji|„Kierownik – A. Myśliwiec, Frontendowiec – A. Myśliwiec, Tester/Analityk systemowy – P. Dąbrowski, Dokumentalista – W. Kuźmicz”|
 |7. Zasoby i narzędzia|Technologie, środowisko, repozytorium, narzędzia komunikacji|„GitHub, Miro, Java, Spring Boot, HTMLL\CSS, PostgreSQL.”|
 |8. Harmonogram wstępny|Etapy realizacji projektu|„Analiza wymagań (1–2 tydz.), Projektowanie (3–4 tydz.), Implementacja (5–7 tydz.), Testy (8 tydz.), Prezentacja (10 tydz.)”|
 |9. Ryzyka i działania zapobiegawcze|Potencjalne zagrożenia i sposoby ich ograniczenia|„Brak komunikacji w zespole → okresowe spotkania online. Problemy z realizacją zadań → Pomoc zespołu/Praca wspólna.”|
@@ -34,7 +34,7 @@ Imię i nazwisko | Rola w projekcie | Zakres odpowiedzialności
 ----------------|------------------|-------------------------
 Alan Myśliwiec | Kierownik projektu / Frontendowiec | - Planowanie i koordynacja prac zespołu<br>- Raportowanie postępów<br>- Kontakt z prowadzącym<br>- Prezentacja końcowa projektu<br>- Tworzenie interfejsu użytkownika (frontend)
 Paweł Dąbrowski | Tester manualny / Analityk systemowy / Dokumentalista | - Analiza wymagań systemowych<br>- Tworzenie przypadków użycia<br>- Opracowanie diagramów UML<br>- Testy manualne aplikacji<br>- Przygotowanie danych testowych<br>- Redakcja dokumentacji projektowej
-Wojciech Kuźmicz | Analityk danych | - Analiza danych wydarzeń i użytkowników<br>- Przygotowanie raportów statystycznych<br>- Wsparcie w projektowaniu bazy danych<br>- Analiza logów systemowych<br>- Tworzenie metryk projektu<br>- Wsparcie decyzyjne zespołu
+Wojciech Kuźmicz | Dokumentalista | - Współtworzenie dokumentacji projektowej<br>- Redakcja i formatowanie dokumentów<br>- Uporządkowanie opisów diagramów UML<br>- Przygotowanie wersji końcowej dokumentacji<br>- Wsparcie zespołu w zakresie dokumentacji
 
 Prowadzący: mgr Wojciech Moniuszko
 Jednostka dydaktyczna: ??
@@ -155,7 +155,8 @@ Rola | Osoba | Odpowiedzialność
 --------------|-------------------------|-----------------------------------------------------------------------
 Kierownik projektu / Frontendowiec | Alan Myśliwiec | Planowanie i koordynacja prac zespołu, raportowanie postępów, kontakt z prowadzącym, prezentacja końcowa projektu, tworzenie interfejsu użytkownika (frontend)
 Tester manualny / Analityk systemowy / Dokumentalista | Paweł Dąbrowski | Analiza wymagań, tworzenie przypadków użycia, opracowanie diagramów UML, testy manualne, przygotowanie danych testowych, redakcja dokumentacji projektowej
-Analityk danych | Wojciech Kuźmicz | Analiza danych wydarzeń i użytkowników, przygotowanie raportów statystycznych, wsparcie w projektowaniu bazy danych, analiza logów systemowych, tworzenie metryk projektu, wsparcie decyzyjne zespołu
+Dokumentalista | Wojciech Kuźmicz | Współtworzenie i redakcja dokumentacji projektowej, formatowanie dokumentów, przygotowanie opisów diagramów UML, wsparcie zespołu w zakresie dokumentacji
+
 8. Zasoby i narzędzia
 
 Kategoria|Narzędzie / Technologia|Cel zastosowania
@@ -221,6 +222,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
