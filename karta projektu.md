@@ -21,7 +21,7 @@ Karta projektu to pierwszy oficjalny dokument projektowy, który opisuje jego po
 
 
 ## KARTA PROJEKTU 
-# ** 1. Informacje ogólne
+# 1. Informacje ogólne
 
 Tytuł projektu:
 CampusX (Aplikacja do zarządzania wydarzeniami studenckimi)
@@ -39,7 +39,7 @@ Wojciech Kuźmicz | Dokumentalista | - Współtworzenie dokumentacji projektowej
 Prowadzący: mgr Wojciech Moniuszko
 Jednostka dydaktyczna: ??
 
-2. Cel projektu
+# 2. Cel projektu
 
 Celem projektu CampusX jest opracowanie i wdrożenie webowej aplikacji do zarządzania wydarzeniami studenckimi, umożliwiającej:
 
@@ -49,7 +49,7 @@ Celem projektu CampusX jest opracowanie i wdrożenie webowej aplikacji do zarzą
 - przeglądanie kalendarza dostępności wydarzeń,
 - Projekt ma służyć jako prototyp systemu społecznościowego dla studentów oraz uczelni, z potencjałem dalszego rozwoju.
 
-3. Uzasadnienie projektu
+# 3. Uzasadnienie projektu
 
 Obecnie organizacja wydarzeń studenckich odbywa się głównie za pośrednictwem mediów społecznościowych lub komunikatorów, co prowadzi do:
 
@@ -60,7 +60,7 @@ Obecnie organizacja wydarzeń studenckich odbywa się głównie za pośrednictwe
 
 Projekt rozwiązuje te problemy poprzez stworzenie zintegrowanej aplikacji do zarządzania wydarzeniami studenckimi, umożliwiającej planowanie i monitorowanie wydarzeń w jednym systemie. Dzięki temu zwiększa się efektywność organizacji, przejrzystość komunikacji oraz zaangażowanie społeczności akademickiej.
 
-4. Zakres projektu
+# 4. Zakres projektu
 
 W zakresie projektu:
 
@@ -78,7 +78,7 @@ Poza zakresem projektu:
 - Mobilna wersja.
 - Integracja z narzedziami AI.
 
-5. Wymagania
+# 5. Wymagania
 
 | ID  | Opis wymagania                                                | Priorytet | Źródło              |
 | --- | ------------------------------------------------------------- | --------- | ------------------- |
@@ -96,7 +96,7 @@ Poza zakresem projektu:
 | F12 | Użytkownik może zobaczyć listę wydarzeń, na które się zapisał | Must      | Student             |
 
 
-6. Projekt systemu (UML)
+# 6. Projekt systemu (UML)
 
 W celu zaprojektowania architektury systemu CampusX oraz zobrazowania jego działania wykorzystano notację UML (Unified Modeling Language). Diagramy UML umożliwiają przedstawienie procesów biznesowych, struktury danych oraz komunikacji pomiędzy komponentami systemu.
 
@@ -161,7 +161,7 @@ Diagram sekwencji obrazuje współpracę pomiędzy frontendem, backendem, bazą 
 
 
 
-7. Zespół projektowy i role
+# 7. Zespół projektowy i role
 
 Rola | Osoba | Odpowiedzialność
 --------------|-------------------------|-----------------------------------------------------------------------
@@ -169,7 +169,7 @@ Kierownik projektu / Frontendowiec | Alan Myśliwiec | Planowanie i koordynacja 
 Tester manualny / Analityk systemowy / Dokumentalista | Paweł Dąbrowski | Analiza wymagań, tworzenie przypadków użycia, opracowanie diagramów UML, testy manualne, przygotowanie danych testowych, redakcja dokumentacji projektowej
 Dokumentalista | Wojciech Kuźmicz | Współtworzenie i redakcja dokumentacji projektowej, formatowanie dokumentów, przygotowanie opisów diagramów UML, wsparcie zespołu w zakresie dokumentacji
 
-8. Zasoby i narzędzia
+# 8. Zasoby i narzędzia
 
 Kategoria|Narzędzie / Technologia|Cel zastosowania
 -----------------|-----------------------------------|----------------------------------------------------------
@@ -181,7 +181,7 @@ Baza danych|PostgreSQL|Przechowywanie danych o wydarzeniach i urzytkonikach
 Dokumentacja|Word|Tworzenie dokumentacji technicznej
 Komunikacja|Telegram, Discord|Spotkania zespołowe
 
-9. Harmonogram realizacji (10 spotkań)
+# 9. Harmonogram realizacji (10 spotkań)
 
 Etap|Zakres|Czas realizacji|Rezultat
 ---|----------------------------------------------------|----------------|--------------------------------------
@@ -194,7 +194,7 @@ Etap|Zakres|Czas realizacji|Rezultat
 7|Testowanie i poprawki|Tydzień 8|Raport testów
 8|Dokumentacja końcowa i prezentacja|Tydzień 9–10|Prezentacja, protokół odbioru
 
-10. Analiza ryzyka
+# 10. Analiza ryzyka
 
 Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 --|---------------------------|-----------|-----------------------------------|---------------------------------
@@ -205,7 +205,7 @@ Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 5|Niedostateczna dokumentacja|Niskie|Wysoki|Wczesne rozpoczęcie opracowania przez dokumentalistę
 6|Brak czasu|Średnie|Średnie|Wydłużenie deadline, ewentualne wsparcie zespołu w realizacji zadań
 
-11. Kryteria sukcesu projektu
+# 11. Kryteria sukcesu projektu
 
 - Wszystkie wymagania funkcjonalne zostały zaimplementowane.
 - Aplikacja uruchamia się lokalnie i działa poprawnie.
@@ -214,7 +214,7 @@ Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 - Zespół zrealizował projekt w wyznaczonym czasie.
 - Projekt został pozytywnie oceniony przez prowadzącego.
 
-12. Rezultaty projektu
+# 12. Rezultaty projektu
 
 - Prototyp aplikacji webowej (CampusX).
 - Dokumentacja projektowa (wymagania, UML, testy).
@@ -222,7 +222,7 @@ Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 - Prezentacja zespołowa (PDF, prezentacja na żywo).
 - Raport końcowy i protokół zdawczo-odbiorczy.
 
-13. Akceptacja projektu
+# 13. Akceptacja projektu
 
 Funkcja|Imię i nazwisko|Data|Podpis
 ------------|-------------------------------|--------------|----------------------------------|
@@ -234,6 +234,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
