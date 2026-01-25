@@ -101,6 +101,31 @@ Poza zakresem projektu:
 W celu zaprojektowania architektury systemu CampusX oraz zobrazowania jego działania wykorzystano notację UML (Unified Modeling Language). Diagramy UML umożliwiają przedstawienie procesów biznesowych, struktury danych oraz komunikacji pomiędzy komponentami systemu.
 
 6.1 Diagram przypadków użycia
+<p align="center">
+<img width="438" height="467" alt="diagram aktywności" src="https://github.com/user-attachments/assets/e7153b0e-8b60-4b92-b425-0b32c866303e" />
+<p align="center">
+*(Proces tworzenia wydarzenia przez organizatora)*
+  </p>
+</p>
+
+
+
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/e7153b0e-8b60-4b92-b425-0b32c866303e" alt="Diagram przypadków użycia systemu CampusX" width="600"><br> <em> Diagram przypadków użycia systemu CampusX</em> </p>
+
+Diagram przypadków użycia przedstawia zakres funkcjonalny systemu CampusX oraz sposób interakcji użytkowników z aplikacją. Diagram umożliwia identyfikację głównych funkcji systemu oraz określenie ról użytkowników korzystających z poszczególnych funkcjonalności.
+
+W systemie wyróżniono trzech aktorów: Studenta, Organizatora wydarzeń oraz Administratora. Każdy z aktorów posiada inny zakres uprawnień i dostęp do określonych funkcji systemu.
+
+Student jest głównym użytkownikiem systemu. Może on przeglądać i wyszukiwać dostępne wydarzenia, zapisywać się na wybrane wydarzenia oraz anulować dokonane wcześniej rezerwacje. Student ma również możliwość rejestracji i logowania do systemu, co umożliwia korzystanie z pełnej funkcjonalności aplikacji.
+
+Organizator wydarzeń korzysta z panelu organizatora, który umożliwia tworzenie nowych wydarzeń oraz zarządzanie uczestnikami zapisanymi na dane wydarzenie. Funkcje te pozwalają na efektywną organizację wydarzeń studenckich.
+
+Administrator odpowiada za zarządzanie systemem oraz jego zawartością. Do jego zadań należy zarządzanie kontami użytkowników oraz moderacja treści, co zapewnia bezpieczeństwo i poprawne działanie aplikacji.
+
+Diagram przypadków użycia stanowi podstawę do dalszego projektowania systemu, w szczególności diagramów aktywności, diagramów sekwencji oraz implementacji funkcjonalności aplikacji CampusX.
+
+
 
 Diagram przypadków użycia przedstawia podstawowe funkcjonalności systemu CampusX oraz role użytkowników korzystających z aplikacji. Użytkownikami systemu są studenci, organizatorzy wydarzeń oraz administratorzy. Diagram ten umożliwia identyfikację głównych interakcji użytkowników z systemem oraz stanowi punkt wyjścia do dalszego projektowania systemu.
 
@@ -234,6 +259,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
