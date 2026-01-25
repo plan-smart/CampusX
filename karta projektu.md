@@ -35,6 +35,7 @@ Imię i nazwisko|Rola w projekcie|Zakres odpowiedzialności
 Alan Myśliwiec|Kierownik projektu|Frontendowiec|Planowanie, koordynacja, raportowanie postępów, kontakt z prowadzącym, prezentacja końcowa, tworzenie interfejsu użytkowego (frontend)
 Kacper Dęga|Programista|Implementacja backendu (Spring Boot), integracja z bazą danych, testy jednostkowe/integracyjne, tworzenie REST API
 Paweł Dąbrowski|Tester manualny||Analityk systemowy|Dokumentalista|Analiza wymagań, tworzenie przypadków użycia, diagramów UML , testy manualne i tworzenia danych, Redakcja dokumentacji projektowej, tworzenie przypadków użycia, diagramów UML
+Wojciech Kuźmicz|Analityk danych|Analiza danych dotyczących wydarzeń i użytkowników, przygotowanie raportów statystycznych, wsparcie w projektowaniu bazy danych, analiza logów systemowych, tworzenie metryk projektu, wsparcie zespołu w podejmowaniu decyzji projektowych
 
 
 Prowadzący: mgr Wojciech Moniuszko
@@ -151,6 +152,7 @@ Rola|Osoba|Odpowiedzialność
 Alan Myśliwiec|Kierownik projektu|Frontendowiec|Planowanie, koordynacja, raportowanie postępów, kontakt z prowadzącym, prezentacja końcowa, tworzenie interfejsu użytkowego (frontend)
 Kacper Dęga|Programista|Implementacja backendu (Spring Boot), integracja z bazą danych, testy jednostkowe/integracyjne, tworzenie REST API
 Paweł Dąbrowski|Tester manualny||Analityk systemowy|Dokumentalista|Analiza wymagań, tworzenie przypadków użycia, diagramów UML , testy manualne i tworzenia danych, Redakcja dokumentacji projektowej, tworzenie przypadków użycia, diagramów UML
+Wojciech Kuźmicz|Analityk danych|Analiza danych dotyczących wydarzeń i użytkowników, przygotowanie raportów statystycznych, wsparcie w projektowaniu bazy danych, analiza logów systemowych, tworzenie metryk projektu, wsparcie zespołu w podejmowaniu decyzji projektowych
 
 8. Zasoby i narzędzia
 
@@ -217,6 +219,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
