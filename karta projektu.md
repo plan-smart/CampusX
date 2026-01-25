@@ -208,6 +208,7 @@ Nr|Ryzyko|Prawdopodobieństwo|Skutek|Działanie zapobiegawcze
 
 # 12. Rezultaty projektu
 
+- Prototyp aplikacji webowej (CampusX).
 - Dokumentacja projektowa (wymagania, UML, testy).
 - Dokumentacja techniczna (instrukcja uruchomienia).
 - Prezentacja zespołowa ( prezentacja na żywo).
@@ -225,6 +226,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
