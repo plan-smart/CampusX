@@ -95,7 +95,9 @@ Diagram przypadków użycia przedstawia podstawowe funkcjonalności systemu Camp
 6.2 Diagram aktywności  
 <p align="center">
 <img width="438" height="467" alt="diagram aktywności" src="https://github.com/user-attachments/assets/e7153b0e-8b60-4b92-b425-0b32c866303e" />
+<p align="center">
 *(Proces tworzenia wydarzenia przez organizatora)*
+  </p>
 </p>
 
 
@@ -217,6 +219,7 @@ Prowadzący|mgr Wojciech Moniuszko|19.10.2025|___________
 - Dokument powinien być przechowywany w repozytorium projektu.
 - Aktualizacja wersji dokumentu wymaga zgody kierownika projektu i prowadzącego.
 - Każdy członek zespołu ma obowiązek zapoznać się z treścią karty i ją zaakceptować.
+
 
 
 
