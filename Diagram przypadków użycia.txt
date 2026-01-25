@@ -1,0 +1,54 @@
+@startuml
+' Ustawienia estetyczne
+skinparam actorStyle awesome
+skinparam packageStyle rectangle
+skinparam shadowing false
+skinparam RoundCorner 10
+left to right direction
+
+actor "Student" as S
+actor "Organizator" as O
+actor "Administrator" as A
+
+' Organizator posiada wszystkie uprawnienia Studenta
+S <|-- O
+
+rectangle "System CampusX" {
+    
+    package "Obs³uga Wydarzeñ" {
+        (Przegl¹danie i wyszukiwanie) as UC1
+        (Zapis na wydarzenie) as UC2
+        (Anulowanie rezerwacji) as UC3
+    }
+    
+    package "Panel Organizatora" {
+        (Tworzenie wydarzenia) as UC4
+        (Zarz¹dzanie uczestnikami) as UC5
+    }
+    
+    package "Administracja" {
+        (Zarz¹dzanie kontami) as UC6
+        (Moderacja treœci) as UC7
+    }
+    
+    package "Profil" {
+        (Logowanie i rejestracja) as UC_LOG
+    }
+}
+
+' Relacje Studenta (i automatycznie Organizatora)
+S -- UC_LOG
+S -- UC1
+S -- UC2
+S -- UC3
+
+' Relacje dedykowane Organizatorowi
+O -- UC4
+O -- UC5
+
+' Relacje Administratora
+A -- UC6
+A -- UC7
+A -- UC_LOG
+
+@enduml

@@ -1,0 +1,38 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class User {
+  +id: int
+  +name: string
+  +email: string
+  +role: UserRole
+}
+
+enum UserRole {
+  STUDENT
+  ORGANIZATOR
+  ADMIN
+}
+
+class Event {
+  +id: int
+  +title: string
+  +description: string
+  +date: datetime
+  +location: string
+  +maxParticipants: int
+}
+
+class Reservation {
+  +id: int
+  +userId: int
+  +eventId: int
+  +timestamp: datetime
+}
+
+User "1" -- "0..*" Reservation
+Event "1" -- "0..*" Reservation
+
+User "1" -- "0..*" Event : tworzy >
+
+@enduml

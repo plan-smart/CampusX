@@ -1,0 +1,21 @@
+@startuml
+start
+
+:Organizator otwiera panel;
+:Klik "Utwórz wydarzenie";
+
+fork
+  :Wprowadź dane wydarzenia;
+fork again
+  :Walidacja pól formularza;
+end fork
+
+if (Dane poprawne?) then (tak)
+  :Zapisz wydarzenie w bazie;
+  :Wyświetl komunikat o sukcesie;
+else (nie)
+  :Wyświetl błędy formularza;
+endif
+
+stop
+@enduml
